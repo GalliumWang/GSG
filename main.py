@@ -398,14 +398,14 @@ class gui(QDialog):
         self.bgcontroler.setValue(320)
         self.bgcontroler.valueChanged.connect(self._changebg)
 
-        topleft=QLabel("主题八")
+        topleft=QLabel("主题一")
         top=QLabel("主题一")
         topright=QLabel("主题二")
-        right=QLabel("主题三")
+        right=QLabel("主题二")
         bottomright=QLabel("主题四")
-        bottom=QLabel("主题五")
-        bottomleft=QLabel("主题六")
-        left=QLabel("主题七")
+        bottom=QLabel("主题三")
+        bottomleft=QLabel("主题三")
+        left=QLabel("主题四")
         
         
 
