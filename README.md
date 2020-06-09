@@ -1,18 +1,10 @@
+
 # standardSitting
 > 基于卡内基梅隆大学的[Openpose开源项目](https://github.com/CMU-Perceptual-Computing-Lab/openpose)的坐姿检测与播报矫正软件
+<p align="center">
+    <img src="4.png">
+</p>
 
-<div id="container">
-    <img src="4.png" />
-</div>
-#container {
-    height:100px;
-    line-height:100px;
-}
-
-#container img {
-    vertical-align:middle;
-    max-height:100%;
-}
 
 项目采集了不同的坐姿图片，通过人工标注的形式定义标准坐姿和错误坐姿，同时标注错误姿势的要点，将错误坐姿定义为三类问题：头部不正，身体不直，腰背弯曲。
 
@@ -20,7 +12,9 @@
 
 通过openpose采集人体上身节点数据，经过分析后得到判断标准坐姿的参量，通过比较这些参量输出相应的显示，这里我们通过语音提示的方法来提示用户坐姿的错误，当用户姿势标准后停止错误提示。
 
-![](3.png)
+<p align="center">
+    <img src="3.png">
+</p>
 
 ## Installation(**Windows Only**)
     download the latest release ver in [download page](https://github.com/GalliumWang/standardSitting/releases)
