@@ -1,7 +1,7 @@
 # standardSitting
 > 基于卡内基梅隆大学的[Openpose开源项目](https://github.com/CMU-Perceptual-Computing-Lab/openpose)的坐姿检测与播报矫正软件
 
-![](4.png)
+<div style="text-align:center"><img src="4.png" /></div>
 
 项目采集了不同的坐姿图片，通过人工标注的形式定义标准坐姿和错误坐姿，同时标注错误姿势的要点，将错误坐姿定义为三类问题：头部不正，身体不直，腰背弯曲。
 
