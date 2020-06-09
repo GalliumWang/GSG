@@ -1,5 +1,5 @@
 # standardSitting
-> 基于Openpose开源项目的坐姿检测与播报矫正软件
+> 基于卡内基梅隆大学的[Openpose开源项目](https://github.com/CMU-Perceptual-Computing-Lab/openpose)的坐姿检测与播报矫正软件
 
 ![](4.png)
 
@@ -16,7 +16,7 @@
 Windows:
 
 ```
-download the latest release ver
+download the latest release ver in [download page](https://github.com/GalliumWang/standardSitting/releases)
 extract the app folder to anywhere of disk.
 ```
 
