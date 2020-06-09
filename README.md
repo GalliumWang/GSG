@@ -1,9 +1,9 @@
 # standardSitting
-> 基于Openpose的开源的坐姿检测与播报矫正软件
+> 基于Openpose开源项目的坐姿检测与播报矫正软件
 
 ![](4.png)
 
-项目从前期调查开始，采集了大量的数据，通过人工标注的形式定义标准坐姿和错误坐姿，同时标注错误姿势的要点，将错误坐姿定义为三类主要问题：头部不正，身体不直，腰背弯曲。
+项目采集了不同的坐姿图片，通过人工标注的形式定义标准坐姿和错误坐姿，同时标注错误姿势的要点，将错误坐姿定义为三类问题：头部不正，身体不直，腰背弯曲。
 
 收集的数据进行归类后开始分析，通过身体部位节点计算，总结出几类问题置信度较高的参数。考虑到设备的问题和计算量，采用单目视觉摄像的方式，可以通过移动端和PC端进行设计，在学习的正前方放置摄像头。
 
@@ -17,17 +17,17 @@ Windows:
 
 ```
 download the latest release ver
-extract the app folder to anywhere in your disk
+extract the app folder to anywhere of disk.
 ```
 
 ## Usage
 
-double click the poseestimation.exe in the folder,then the initial period takes up abount ten seconds,when the label ```正在初始化``` turn to ```程序未运行```,you can click the ```开始检测``` botton to start the program.
+Double click the poseestimation.exe in the root folder,then the initial period takes up abount ten seconds,when the label ```正在初始化``` turn to ```程序未运行```,click the ```开始检测``` botton to run the sitting posture detection.
 
 ![](1.png)
 ![](2.png)
 
-for more information on usage,please go to [standardSitting文档](https://docs.google.com/document/d/1aBZUWWjfnGENfG-lLUxR1-8BpfNQt6iH_GTdcd2GyyI/edit?usp=sharing) and [standardSitting演示文稿](https://docs.google.com/presentation/d/13BfF1TiJzeDX3NLtctPy5Vxs7LAVo-6Reb912g-ofNE/edit?usp=sharing) for more detailed doc.
+for more information on the project,please go to [standardSitting doc](https://docs.google.com/document/d/1aBZUWWjfnGENfG-lLUxR1-8BpfNQt6iH_GTdcd2GyyI/edit?usp=sharing) and [standardSitting slides](https://docs.google.com/presentation/d/13BfF1TiJzeDX3NLtctPy5Vxs7LAVo-6Reb912g-ofNE/edit?usp=sharing).
 
 ## Release History
 
@@ -44,16 +44,8 @@ for more information on usage,please go to [standardSitting文档](https://docs.
     * 必须点击“关闭程序”退出运行，否则直接关闭程序会导致json缓存遗留
 
 ## Meta
-* #### ZJUT&nbsp;&nbsp;&nbsp;计算机实验班1801
-
-    王佳  – galliumwang199@gmail.com<br>
-    王百城<br>
-    陈力<br>
-    郑逸伦<br>
-    李响<br>
-
 ```人工智能```课程自主实验项目<br>
-基于GPL-3.0许可. See ``LICENSE`` for more information.
+GPL-3.0 LICENSE.
 
 
 ## Contributing
