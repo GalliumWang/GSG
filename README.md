@@ -1,6 +1,12 @@
 
-# standardSitting
+<h1 align="center">
+    standardSitting
+</h1>
+
+
 > 基于卡内基梅隆大学的[Openpose开源项目](https://github.com/CMU-Perceptual-Computing-Lab/openpose)的坐姿检测与播报矫正软件
+
+
 <p align="center">
     <img src="4.png">
 </p>
@@ -25,8 +31,8 @@
 
 Double click the poseestimation.exe in the root folder,then the initial period takes up abount ten seconds,when the label ```正在初始化``` turn to ```程序未运行```,click the ```开始检测``` botton to run the sitting posture detection.
 
-![](1.png)
-![](2.png)
+![](1.jpg)
+![](2.jpg)
 
 for more information on the project,please go to [standardSitting doc](https://docs.google.com/document/d/1aBZUWWjfnGENfG-lLUxR1-8BpfNQt6iH_GTdcd2GyyI/edit?usp=sharing) and [standardSitting slides](https://docs.google.com/presentation/d/13BfF1TiJzeDX3NLtctPy5Vxs7LAVo-6Reb912g-ofNE/edit?usp=sharing).
 
