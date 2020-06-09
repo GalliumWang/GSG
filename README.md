@@ -12,10 +12,8 @@
 ![](3.png)
 
 ## Installation(**Windows Only**)
-
-Windows:
     download the latest release ver in [download page](https://github.com/GalliumWang/standardSitting/releases)
-    extract the app folder to anywhere of disk.
+    <br>and extract the app folder to anywhere of disk.
 
 
 ## Usage
