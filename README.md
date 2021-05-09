@@ -1,6 +1,6 @@
 
 <h1 align="center">
-    standardSitting
+    Standard Sitting
 </h1>
 
 
